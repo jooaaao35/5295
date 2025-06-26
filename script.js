@@ -8,5 +8,5 @@ let chute;
 let idade;
 let nome;
 
-pronpt("digite seu nome:");
+nome = console.log(pronpt("digite seu nome:"));
 console.log (nome);
