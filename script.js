@@ -1,19 +1,18 @@
-alert("comando para mostrar um texto na tela");
-alert("ele é limitado ao cique no ok pelo usuário");
-alert("não é possivel configurar sem tempo de permanencia na tela");
+alert("Comando para mostrar um texto na tela");
+alert("Ele é limitado ao clique no ok pelo usuário");
+alert("Não é possivel configurar seu tempo de permanência na tela");
 
 let chute;
 let idade;
 let nome;
 
-nome = console.log(prompt("digite seu nome:"));
+nome = console.log(prompt("Digite seu nome"));
 
+let entrada = prompt("Digite um número inteiro");
+let numero = parseInt(entrada);
 
-let entrada = prompt("Digite um número inteiro:");
-let numero = parselnt(entrada);
-
-if(Number.isInteger(numero)){
-    console.log("Obrigado! Você digitou um inteiro.");
+if (Number.isInteger(numero)) {
+console.log("O número digitado é um inteiro.");
 } else {
-    console.log("Por favor, digite um número inteiro válido");
+console.log("O número digitado não é um inteiro.");
 }
