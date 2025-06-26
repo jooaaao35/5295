@@ -8,3 +8,4 @@ let chute;
 let idade;
 let nome;
 
+pronpt("digite seu nome:");
