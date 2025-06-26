@@ -9,3 +9,4 @@ let idade;
 let nome;
 
 pronpt("digite seu nome:");
+console.log (nome);
