@@ -9,4 +9,3 @@ let idade;
 let nome;
 
 nome = console.log(pronpt("digite seu nome:"));
-console.log (nome);
